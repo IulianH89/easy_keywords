@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="resources.fxml.MainButtonsController">
+   <left>
+      <VBox id="stage_menu_left_box" prefWidth="160.0" stylesheets="@../css/MainView.css" BorderPane.alignment="CENTER">
+         <children>
+            <Button id="buttons_menu_style" mnemonicParsing="false" onAction="#goFiles" onDragDetected="#goApplyKeywords" prefHeight="25.0" prefWidth="160.0" stylesheets="@../css/MainView.css" text="Files" />
+            <Button id="buttons_menu_style" mnemonicParsing="false" onAction="#goApplyKeywords" prefHeight="25.0" prefWidth="160.0" stylesheets="@../css/MainView.css" text="Apply Keywords" />
+            <Button id="buttons_menu_style" mnemonicParsing="false" prefHeight="25.0" prefWidth="160.0" stylesheets="@../css/MainView.css" text="Button 3" />
+            <Button id="buttons_menu_style" mnemonicParsing="false" prefHeight="25.0" prefWidth="160.0" stylesheets="@../css/MainView.css" text="Button 4" />
+         </children>
+      </VBox>
+   </left>
+   <center>
+      <StackPane prefHeight="150.0" prefWidth="200.0" BorderPane.alignment="CENTER" />
+   </center>
+</BorderPane>

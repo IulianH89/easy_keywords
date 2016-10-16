@@ -1,0 +1,36 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.mainFxmlClass {
+
+}
+
+#stage_menu_left_box{
+    -fx-background-color: #404040;
+}
+
+#buttons_menu_style {
+    
+    -fx-text-alignment: center;
+    -fx-font-weight: bold;
+    -fx-text-fill: #E0E0E0;
+    -fx-background-color: #404040;
+    -fx-background-radius: 0, 0;
+}
+
+#buttons_menu_style:hover {
+    -fx-text-fill: #404040;
+    -fx-font-weight: bold;
+    -fx-font-size: 14;
+    -fx-background-color: #E0E0E0;
+    -fx-background-radius: 0, 0;
+}
+
+#buttons_click_style {
+    -fx-text-fill: #404040;
+    -fx-font-weight: bold;
+    -fx-font-size: 14;
+    -fx-background-color: #E0E0E0;
+    -fx-background-radius: 0, 0;
+}
